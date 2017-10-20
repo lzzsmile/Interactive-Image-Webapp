@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Gallery Webapp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1>Image Composite</h1>
+
+<canvas id="can">
+</canvas>
+<canvas id="can2">
+</canvas>
+
+<h2>Load Image</h2>
+
+<p>
+  Foreground Image:
+  <input type="file"  value="Choose Image"  accept="image/*" id="finput" onchange="uploadforeground()" >
+</p>
+<p>
+  Background Image:
+  <input type="file" value="Choose Image" id="finput1" accept="image/*"  onchange="uploadbackground()">
+</p>
+
+<h2>Do Composite</h2>
+
+<p>
+  <input type="button" id="d1" value="Composite" onclick="doGreenScreen()">
+  <input type="button" id="d2" value="Reset" onclick="clearCanvas()">
+</p>
+
+<h1>Image Filter</h1>
+
+<canvas id="can3">
+</canvas>
+
+<h2>Load Image</h2>
+
+<input type="file" value="Choose Image"  accept="image/*" id="finput2" onchange="loadImage()" >
+
+<h2>Choose Filter</h2>
+
+<p>
+<input type="button" value="Grayscale" onclick="doGray()" >
+<input type="button" value="Red" onclick="doRed()" >
+<input type="button" value="Blur" onclick="doBlur()" >
+<input type="button" value="Rainbow" onclick="doRainbow()">
+</p>
+
+<p>
+<input type="button" value="Reset Image" onclick="reset()" >
+</p>
+  
+<script  src="js/index.js"></script>
+
+</body>
+</html>
