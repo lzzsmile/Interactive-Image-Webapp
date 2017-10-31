@@ -1,4 +1,7 @@
 # Interactive Image Webapp
+
+This project using HTML, CSS, and Javascript.
+
 ## Image Composite
 #### Before Composite---->After Composite
 ![ScreenShot](https://github.com/lzzsmile/Interactive-Image-Webapp/blob/master/Image/Before%20Composite.png)![ScreenShot](https://github.com/lzzsmile/Interactive-Image-Webapp/blob/master/Image/After%20Composite.png)
